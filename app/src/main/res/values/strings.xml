@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">eWaVi</string>
+    <string name="select_store">Seleccione las tiendas</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancelar</string>
+    <string name="wallapop">Wallapop</string>
+    <string name="ebay">ebay</string>
+    <string name="vibbo">Vibbo/Segundamano.es</string>
+    <string name="milanuncios">Milanuncios</string>
+    <string name="nolotire">Nolotire</string>
+    <string name="cash_converters">Cash Converters</string>
+    <string name="cex">CeX</string>
+    <string name="amazon">Amazon</string>
+    <string name="fnac">Fnac</string>
+    <string name="todocoleccion">TodoColección</string>
+    <string name="to">Hasta</string>
+    <string name="search">Buscar</string>
+    <string name="price">Precio:</string>
+    <string name="from">Desde</string>
+    <string name="todo">TODO</string>
+    <string name="list_effects">Efectos de lista</string>
+    <string name="delete_search_msg">Se han borrado los campos de búsqueda</string>
+    <string name="search_error">Error en la búsqueda en</string>
+    <string name="select_all">Seleccionar todo</string>
+    <string name="select_nothing">Borrar selección</string>
+    <string name="max_size_list">Máximo número de artículos mostrados</string>
+    <string name="min_search_length">La búsqueda debe contener al menos 2 caracteres</string>
+    <string name="max_search_length">La búsqueda debe contener menos de 30 caracteres</string>
+    <string name="max_search_price">El precio no puede ser tan alto</string>
+    <string name="must_activate_stores">Debe seleccionar al menos una tienda</string>
+    <string-array name="store_items">
+        <item>@string/cash_converters</item>
+        <item>@string/cex</item>
+        <item>@string/ebay</item>
+        <item>@string/fnac</item>
+        <item>@string/milanuncios</item>
+        <item>@string/nolotire</item>
+        <item>@string/todocoleccion</item>
+        <item>@string/vibbo</item>
+        <item>@string/wallapop</item>
+    </string-array>
+    <string name="searchOptionLocation">Buscar por localización</string>
+    <string name="searchOptionLocationOnly">Sólo tiendas que permitan localización</string>
+    <string-array name="searchOptionOrderChoice">
+        <item>Buscar destacados</item>
+        <item>Buscar lo más barato</item>
+    </string-array>
+    <string-array name="orderListChoice">
+        <item>Primero más barato</item>
+        <item>Primero más caro</item>
+    </string-array>
+    <string-array name="ads_list">
+        <item>ca-app-pub-5383536429386669/3399960242</item>
+        <item>ca-app-pub-5383536429386669/5915524519</item>
+        <item>ca-app-pub-5383536429386669/4155219278</item>
+        <item>ca-app-pub-5383536429386669/7091663368</item>
+        <item>ca-app-pub-5383536429386669/1144491675</item>
+        <item>ca-app-pub-5383536429386669/6812461766</item>
+        <item>ca-app-pub-5383536429386669/7742400059</item>
+        <item>ca-app-pub-5383536429386669/7407358136</item>
+        <item>ca-app-pub-5383536429386669/8145724737</item>
+        <item>ca-app-pub-5383536429386669/3767496023</item>
+        <item>ca-app-pub-5383536429386669/3575924331</item>
+        <item>ca-app-pub-5383536429386669/9156264514</item>
+        <item>ca-app-pub-5383536429386669/8253535949</item>
+    </string-array>
+
+    <string name="navigation_drawer_open">Abrir barra lateral</string>
+    <string name="navigation_drawer_close">Cerrar barra lateral</string>
+
+    <string name="optionSelectStore">Seleccionar Tiendas</string>
+    <string name="optionSearch">Opciones Búsqueda</string>
+    <string name="optionList">Opciones Lista</string>
+
+    <string name="noImg">No hay imagen</string>
+
+
+</resources>

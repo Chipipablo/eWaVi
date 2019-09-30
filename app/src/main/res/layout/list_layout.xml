@@ -1,0 +1,126 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    android:theme="@style/DialogAppTheme"
+    android:baselineAligned="false">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/img_layout"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="0">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#fff"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:padding="2dp">
+
+            <ImageView
+                android:id="@+id/item_picture"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:adjustViewBounds="true"
+                android:maxWidth="75dp"
+                android:maxHeight="90dp"
+                android:minWidth="60dp"
+                android:minHeight="60dp"
+                android:scaleType="centerInside"
+                android:src="@android:drawable/ic_dialog_info"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </android.support.constraint.ConstraintLayout>
+    </android.support.constraint.ConstraintLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_horizontal|center_vertical"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            android:textAllCaps="false"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:textAllCaps="false"
+            android:textAppearance="?android:attr/textAppearanceButton"
+            android:textColor="@android:color/black"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:id="@+id/list_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_weight="0"
+        android:orientation="vertical">
+        <!--android:layout_marginLeft="6dp"-->
+        <!--android:layout_marginRight="6dp"-->
+
+
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|top"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="5dp"
+            android:maxLines="2"
+            android:text="100€"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/item_marketplace"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|bottom"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="4dp"
+            android:contentDescription="@string/todo"
+            android:scaleType="center"
+            android:src="@android:drawable/btn_dialog" />
+
+
+    </LinearLayout>
+</LinearLayout>

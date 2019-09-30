@@ -1,0 +1,15 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <!-- Per the design guidelines, navigation drawers should be between 240dp and 320dp:
+         https://developer.android.com/design/patterns/navigation-drawer.html -->
+    <dimen name="navigation_drawer_width">240dp</dimen>
+    <dimen name="item_img_max_width">75dp</dimen>
+    <dimen name="item_img_max_height">90dp</dimen>
+    <dimen name="progress_layout_size">100dp</dimen>
+    <dimen name="large_img_max_size">6dp</dimen>
+    <dimen name="market_image_size">36dp</dimen>
+    <dimen name="item_image_size">72dp</dimen>
+    <dimen name="expandablelist_item_image_size">24dp</dimen>
+
+</resources>

@@ -1,0 +1,32 @@
+<resources xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="@android:style/Theme.Holo.Light.DarkActionBar">
+        <!--<item name="android:fontFamily">@font/bauhausmedium</item>-->
+        <item name="android:icon">@android:color/transparent</item>
+        <item name="android:actionBarStyle">@style/MyActionBarTheme</item>
+    </style>
+    <style name="DialogAppTheme" parent="AppTheme">
+        <!--<item name="android:fontFamily">@font/bauhausmedium</item>-->
+    </style>
+    <style name="MyActionBarTheme" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <!-- <item name="android:fontFamily">@font/bauhausmedium</item>-->
+        <item name="android:background">#ffE9AF10</item>
+    </style>
+    <style name="NavigationDrawerAppTheme" parent="AppTheme">
+        <!-- <item name="android:fontFamily">@font/bauhausmedium</item>-->
+    </style>
+    <style name="spinner" parent="android:Widget.TextView.SpinnerItem">
+      <!--  <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:capitalize">words</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@android:color/black</item>-->
+    </style>
+    <style name="spinnerDropDown" parent="android:TextAppearance.Widget.TextView.SpinnerItem">
+        <!--<item name="android:textSize">20sp</item>
+        <item name="android:textColor">@android:color/black</item>-->
+        <item name="android:background">#fff</item>
+    </style>
+
+</resources>
