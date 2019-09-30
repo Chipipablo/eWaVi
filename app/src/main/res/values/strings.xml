@@ -50,19 +50,7 @@
         <item>Primero más caro</item>
     </string-array>
     <string-array name="ads_list">
-        <item>ca-app-pub-5383536429386669/3399960242</item>
-        <item>ca-app-pub-5383536429386669/5915524519</item>
-        <item>ca-app-pub-5383536429386669/4155219278</item>
-        <item>ca-app-pub-5383536429386669/7091663368</item>
-        <item>ca-app-pub-5383536429386669/1144491675</item>
-        <item>ca-app-pub-5383536429386669/6812461766</item>
-        <item>ca-app-pub-5383536429386669/7742400059</item>
-        <item>ca-app-pub-5383536429386669/7407358136</item>
-        <item>ca-app-pub-5383536429386669/8145724737</item>
-        <item>ca-app-pub-5383536429386669/3767496023</item>
-        <item>ca-app-pub-5383536429386669/3575924331</item>
-        <item>ca-app-pub-5383536429386669/9156264514</item>
-        <item>ca-app-pub-5383536429386669/8253535949</item>
+
     </string-array>
 
     <string name="navigation_drawer_open">Abrir barra lateral</string>
